@@ -1,0 +1,9 @@
+### Missing 3D models - created on 2026-10-13 21:03
+### Printed by checking_3D_models plugin
+Board file: C:/Users/Gabriel Liberato/Desktop/electronics/embedded/projects/projects-common-10/ecp5_sys_v1/ecp5_sys_v1/ecp5_sys_v1.kicad_pcb
+3D missing models written to:
+C:\Users\Gabriel Liberato\Desktop\electronics\embedded\projects\projects-common-10\ecp5_sys_v1\ecp5_sys_v1\ecp5_sys_v1_missing3Dmodels.txt
+-------
+-------
+NUM of 3D missing models:0
+checked extensions ['.stp', '.step', '.stpZ']
