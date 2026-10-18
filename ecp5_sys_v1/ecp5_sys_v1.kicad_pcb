@@ -56,22 +56,28 @@
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
-			(layer "In1.Cu"
+			(layer "dielectric 2"
 				(type "copper")
 				(thickness 0.035)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
 			)
-			(layer "dielectric 2"
+			(layer "dielectric 3"
 				(type "core")
 				(thickness 1.24)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
-			(layer "In2.Cu"
+			(layer "dielectric 4"
 				(type "copper")
 				(thickness 0.035)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
 			)
-			(layer "dielectric 3"
+			(layer "dielectric 5"
 				(type "prepreg")
 				(thickness 0.1)
 				(material "FR4")

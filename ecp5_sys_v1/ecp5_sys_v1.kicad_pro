@@ -661,17 +661,45 @@
     "top_level_sheets": [
       {
         "filename": "ecp5_sys_v1.kicad_sch",
-        "name": "ecp5_sys_v1",
+        "name": "top",
         "uuid": "08f8cf6b-931b-453e-b2e0-0373288a9134"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1",
     "variants": []
   },
   "sheets": [
     [
       "08f8cf6b-931b-453e-b2e0-0373288a9134",
-      "ecp5_sys_v1"
+      "top"
+    ],
+    [
+      "dba0e271-f944-497b-b90b-8dd72ffa114f",
+      "FPGA"
+    ],
+    [
+      "d04e611c-2826-4bf8-b2d8-77f691cf1818",
+      "ESP32"
+    ],
+    [
+      "3508b127-dd1f-4f0c-b525-bfa10aa13455",
+      "POWER"
+    ],
+    [
+      "9dcf90d5-2007-4f61-9b0b-281c7ff030ce",
+      "CAMERA"
+    ],
+    [
+      "d034c9aa-710d-4aa6-a7d2-5b3dc164ef66",
+      "USB"
+    ],
+    [
+      "27bef21c-3587-4f48-871d-ffc00d923924",
+      "DDR"
+    ],
+    [
+      "3c3a65fb-8c9c-4fa7-946b-3640e5faa30c",
+      "PERIPHERALS"
     ]
   ],
   "text_variables": {},
