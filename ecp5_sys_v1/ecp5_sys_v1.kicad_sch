@@ -5,6 +5,16 @@
 	(uuid "08f8cf6b-931b-453e-b2e0-0373288a9134")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 107.95 120.65) (xy 114.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ff9512-ec23-471f-9ae7-6b5df3ff237f")
+	)
 	(sheet
 		(at 69.85 30.48)
 		(size 38.1 64.77)
@@ -227,6 +237,46 @@
 				(justify left top)
 			)
 		)
+		(pin "LED_5V_TO" input
+			(at 107.95 106.68 0)
+			(uuid "52478bee-83d6-4e0d-8995-e0f6cbcac4d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB1_PU" bidirectional
+			(at 107.95 110.49 0)
+			(uuid "99bf3dc7-1308-4801-9491-8f48cc516480")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{FT_OUTDATA}" output
+			(at 107.95 120.65 0)
+			(uuid "e97fe27f-ea48-4003-8d88-a4a807b8971c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{FT_CBUS_PROG}" bidirectional
+			(at 107.95 115.57 0)
+			(uuid "84131be1-08ef-4caf-b07b-c734baba2d7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134"
@@ -317,6 +367,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "FPGA_JTAG{FT_OUTDATA}" input
+			(at 114.3 120.65 180)
+			(uuid "dbb4a399-f3f7-4f31-9922-05030f7b76e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
