@@ -5,4 +5,14 @@
 	(uuid "517b8946-fcfb-4633-88e2-4077ff0b5e2e")
 	(paper "A4")
 	(lib_symbols)
+	(text "GOAL?\n\nESP32 AND CH347F: 3V3\n	\nECP5-85F: 1V1, 2V5, 3V3, 1V2(DDR3), 2V5(MIPI), 1V8(MIPI)\n\nDDR: 1V8, 1V2, 0V6 \n\nSEE IF YOU ACTUALLY CARE ABOUT MIPI."
+		(exclude_from_sim no)
+		(at 148.844 84.074 0)
+		(effects
+			(font
+				(size 6 6)
+			)
+		)
+		(uuid "40a3bdb9-152b-498d-a8ac-68cde1161d8c")
+	)
 )
