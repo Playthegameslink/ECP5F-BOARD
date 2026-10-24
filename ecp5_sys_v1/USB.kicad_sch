@@ -5,6 +5,142 @@
 	(uuid "8fa786ad-047b-4199-9062-c275711ad258")
 	(paper "A4")
 	(lib_symbols
+		(symbol "5V_1"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR036"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 4.572 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"5V\""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "5V_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5V_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -6384,142 +6520,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-PowerSymbol:5V"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "5V"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"5V\""
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_SparkFun-PowerSymbol:GND"
 			(power global)
 			(pin_names
@@ -9771,7 +9771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0345c87b-ecfe-4701-85ac-59b7a2d4d80c")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 93.98 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10045,85 +10045,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 160.02 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d21af6f-bee1-48a6-a807-ee3f21b869c8")
-		(property "Reference" "#PWR020"
-			(at 160.02 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 160.02 30.48 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 160.02 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b19acaa3-8e94-48ee-aaf2-950231fa5831")
-		)
-		(instances
-			(project "ecp5_sys_v1"
-				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR020")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -10141,7 +10063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1522f923-6f63-4779-a80f-58c04e8738af")
-		(property "Reference" "C9"
+		(property "Reference" "C33"
 			(at 139.7 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10359,7 +10281,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "C9")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -10377,7 +10299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15f7478e-86ac-44a7-abaf-b9fc5651beb9")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR038"
 			(at 35.56 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10437,7 +10359,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR013")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10455,7 +10377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e50016-8d0c-42fb-8898-507b28b471d4")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR039"
 			(at 71.12 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10515,13 +10437,14 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR016")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "5V_1")
 		(lib_id "PCM_SparkFun-PowerSymbol:5V")
 		(at 105.41 30.48 0)
 		(unit 1)
@@ -10533,7 +10456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d16c819-902f-4de6-852e-04e548ae94c9")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR043"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10544,8 +10467,8 @@
 				)
 			)
 		)
-		(property "Value" "5V"
-			(at 105.41 26.67 0)
+		(property "Value" "+5V"
+			(at 105.41 25.908 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10593,7 +10516,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR018")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10611,7 +10534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e557a55-8866-4382-8a03-612fabf0b958")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR036"
 			(at 30.48 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10671,7 +10594,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR027")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10689,7 +10612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "324bce38-3e43-4d11-82dd-585727d09d69")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG06"
 			(at 37.465 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10750,7 +10673,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#FLG01")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -10768,7 +10691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39a3f8fd-5610-4bf0-917f-4a5bafb9788f")
-		(property "Reference" "C6"
+		(property "Reference" "C29"
 			(at 33.02 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10986,7 +10909,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "C6")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -11004,7 +10927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ade2889-faf5-4379-a7dd-d8c2a7b197ef")
-		(property "Reference" "C8"
+		(property "Reference" "C34"
 			(at 160.02 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11222,7 +11145,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "C8")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -11240,7 +11163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dab63b1-192f-4bc0-b0d3-ecfd2b6188c6")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 147.32 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11490,7 +11413,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11508,7 +11431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41e706ce-529b-4cca-9fcc-2d641a9ce114")
-		(property "Reference" "C5"
+		(property "Reference" "C28"
 			(at 33.02 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11726,7 +11649,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "C5")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -11744,7 +11667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42efe183-241a-4a7e-949d-1147f9837aad")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 35.56 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11851,7 +11774,86 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "J2")
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "5V_1")
+		(lib_id "PCM_SparkFun-PowerSymbol:5V")
+		(at 160.02 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a359956-b555-4ad1-84c4-295db5e5fd6c")
+		(property "Reference" "#PWR048"
+			(at 160.02 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 160.02 29.718 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 160.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30507cf7-7038-45ea-89de-eac6a67b26b4")
+		)
+		(instances
+			(project "ecp5_sys_v1"
+				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11869,7 +11871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f233ecd-adab-409c-af29-251a84331205")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR044"
 			(at 137.16 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -11929,7 +11931,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR029")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11947,7 +11949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59924533-e2fb-42f7-a508-a424fc703e60")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 128.27 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12196,7 +12198,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -12214,7 +12216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cc2307c-2505-42d7-9de1-a49bf197c05e")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 137.16 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12464,7 +12466,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -12482,7 +12484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d10788e-9699-4fde-9fa4-c3b2b2336d14")
-		(property "Reference" "R26"
+		(property "Reference" "R28"
 			(at 162.56 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12732,7 +12734,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "R26")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -12750,7 +12752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66675ec0-8c20-41a5-9be8-13f15618ef99")
-		(property "Reference" "C4"
+		(property "Reference" "C31"
 			(at 87.63 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12968,7 +12970,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "C4")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -12986,7 +12988,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6e916f64-5475-49b5-aff5-e0242fda668a")
-		(property "Reference" "TP2"
+		(property "Reference" "TP5"
 			(at 144.78 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13047,7 +13049,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "TP2")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -13065,7 +13067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "702b9783-3126-4c47-9235-789f094076fc")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR041"
 			(at 73.66 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -13125,7 +13127,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR022")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13143,7 +13145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ab8d607-c921-4374-816f-9cf31d9dc33c")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 162.56 63.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13317,7 +13319,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13335,7 +13337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c2891bb-392e-4e6e-bf95-30527b04cc97")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR045"
 			(at 137.16 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -13395,7 +13397,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR028")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -13413,7 +13415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c30df0c-a679-4f68-85e0-cb22f7c4f7df")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR042"
 			(at 85.09 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13473,7 +13475,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR017")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -13491,7 +13493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80ea36f0-316a-4f6a-a152-0cb45811a459")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR046"
 			(at 144.78 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -13551,7 +13553,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR019")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13569,7 +13571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8356f3e0-0065-488d-9e89-562dcc4f9d28")
-		(property "Reference" "C3"
+		(property "Reference" "C30"
 			(at 60.96 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13787,7 +13789,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "C3")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -13805,7 +13807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c17fa42-bfbb-4baa-b14f-997435859082")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 73.66 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14055,7 +14057,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -14193,7 +14195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "947f6b64-191f-4d15-8901-a7065aba8b34")
-		(property "Reference" "R27"
+		(property "Reference" "R21"
 			(at 87.63 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14442,7 +14444,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "R27")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -14459,7 +14461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a41fcc73-487d-4088-ade6-a32da8c170e5")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 109.22 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14708,7 +14710,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -14727,7 +14729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac21b613-31d6-40f4-8683-10c05e4a563b")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 97.6948 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14998,7 +15000,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15016,7 +15018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac5fa483-61f2-4f41-b3f7-72c8e8f6c4ae")
-		(property "Reference" "R16"
+		(property "Reference" "R20"
 			(at 81.28 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15266,7 +15268,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "R16")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -15285,7 +15287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f314d0-0b8c-4e3e-915f-fa13836eb3dd")
-		(property "Reference" "F3"
+		(property "Reference" "F1"
 			(at 64.77 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15380,7 +15382,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "F3")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -15398,7 +15400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be51e629-5ffc-48e3-a3e5-eae7fa867d96")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR035"
 			(at 30.48 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15458,7 +15460,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR026")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -15476,7 +15478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6c4feae-6202-4296-b9f9-db86458eedec")
-		(property "Reference" "U5"
+		(property "Reference" "U11"
 			(at 85.4711 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15555,7 +15557,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "U5")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -15573,7 +15575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccdecd05-0a0e-48de-8f68-a9f1ae037436")
-		(property "Reference" "R19"
+		(property "Reference" "R26"
 			(at 139.7 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15823,7 +15825,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "R19")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -15841,7 +15843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d538ca4f-1dd2-4aa6-9262-2537d2bf0adf")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR040"
 			(at 73.66 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -15901,7 +15903,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR024")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -16164,7 +16166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dac1f996-d4d2-4657-9b85-8d6e2d05c6c7")
-		(property "Reference" "U7"
+		(property "Reference" "U10"
 			(at 84.328 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16340,7 +16342,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "U7")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -16358,7 +16360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0e77463-b7c5-435b-87dc-3ffa0a582514")
-		(property "Reference" "C7"
+		(property "Reference" "C32"
 			(at 138.43 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16576,7 +16578,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "C7")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -16594,7 +16596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e27b86e1-e1c6-4853-b0c4-39308e7a50e5")
-		(property "Reference" "Q3"
+		(property "Reference" "Q4"
 			(at 163.83 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16664,7 +16666,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -16682,7 +16684,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e407f129-5b9f-4ab1-9b04-abe8fb914755")
-		(property "Reference" "TP1"
+		(property "Reference" "TP4"
 			(at 114.3 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16693,7 +16695,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V_test"
+		(property "Value" "+5V_test"
 			(at 114.3 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16743,7 +16745,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "TP1")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -16761,7 +16763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc2f279-3b27-4eb3-8d74-f47e83a7ced3")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG07"
 			(at 105.41 38.735 0)
 			(hide yes)
 			(show_name no)
@@ -16821,7 +16823,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#FLG02")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -16839,7 +16841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f102edf9-88e8-4c22-8ad3-6aef97bf530a")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 148.59 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16909,7 +16911,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -16927,7 +16929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4ceb4db-9a34-4f52-abf8-173810556435")
-		(property "Reference" "R18"
+		(property "Reference" "R22"
 			(at 96.52 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17177,7 +17179,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "R18")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -17195,7 +17197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fce09403-5142-4256-9960-b38943ad56b8")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR047"
 			(at 147.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17255,7 +17257,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR023")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -17273,7 +17275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff9f3906-49b9-4344-a1e4-0b5802490407")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR037"
 			(at 30.48 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -17333,7 +17335,7 @@
 		(instances
 			(project "ecp5_sys_v1"
 				(path "/08f8cf6b-931b-453e-b2e0-0373288a9134/d034c9aa-710d-4aa6-a7d2-5b3dc164ef66"
-					(reference "#PWR025")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
